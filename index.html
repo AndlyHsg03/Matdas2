@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sistem Variabel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Kalkulator Sistem Variabel</h2>
+        <label for="uangAwal">Uang Awal (x)</label>
+        <input type="number" id="uangAwal" placeholder="Masukkan uang awal">
+
+        <label for="biayaKos">Biaya Sewa Kos (a)</label>
+        <input type="number" id="biayaKos" placeholder="Masukkan biaya kos">
+
+        <label for="biayaMakan">Biaya Makan (b)</label>
+        <input type="number" id="biayaMakan" placeholder="Masukkan biaya makan">
+
+        <label for="biayaTransport">Biaya Transportasi (c)</label>
+        <input type="number" id="biayaTransport" placeholder="Masukkan biaya transportasi">
+
+        <button onclick="hitungSistemVariabel()">Hitung Sistem Variabel</button>
+
+        <div class="result" id="result">Hasil akan muncul di sini</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
